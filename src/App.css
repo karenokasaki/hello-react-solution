@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.top {
+  background-color: #1f2535;
+  padding-bottom: 5rem;
+  margin-bottom: 4rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > img {
+  margin: 20px 40px;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  color: white;
+  margin-top: 4rem;
+}
+
+.top-text > h1 {
+  font-size: 4rem;
+  width: 40vw;
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 70px;
+}
+
+.top-text > p {
+  width: 30vw;
+  text-align: left;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.top-text > button {
+  background-color: white;
+  color: #1f2535;
+  padding: 20px;
+  border-radius: 7px;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-color: white;
+}
+
+.pros {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  padding: 0px 50px;
+}
+
+.pros > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.pros > div > h2 {
+  color: #1f2535;
+  margin-bottom: 5px;
+}
+
+.pros > div > p {
+  text-align: left;
+  color: grey;
+  font-size: 1rem;
+}
+
+.pros > div > img {
+  margin-bottom: 10px;
+}
